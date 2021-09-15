@@ -127,12 +127,12 @@ export default class Home extends Component {
     return (
       <div className="mt-3">
         <Container fluid>
+          <ListCategories
+            changeCategory={this.changeCategory}
+            categoriYangDipilih={categoriYangDipilih}
+          />
           <Row>
-            <ListCategories
-              changeCategory={this.changeCategory}
-              categoriYangDipilih={categoriYangDipilih}
-            />
-            <Col className="mt-3">
+            <Col className="mt-3 ml-3">
               <h4>
                 <strong>Daftar Produk</strong>
               </h4>

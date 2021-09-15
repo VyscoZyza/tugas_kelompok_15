@@ -120,14 +120,14 @@ export default class Hasil extends Component {
           <Card className="overflow-auto hasil ">
             <ListGroup variant="flush">
               <Row className="category-aktif">
-                <Col xs={2} className="ml-3">
-                  <h9 className="ml-2">Jml</h9>
+                <Col xs={2} className="ml-3 mt-2">
+                  <h5 className="ml-2">Jml</h5>
                 </Col>
                 <Col>
-                  <h5 className="">Produk</h5>
+                  <h5 className="mt-2">Produk</h5>
                 </Col>
                 <Col>
-                  <strong className="float-right mr-3">Total Harga</strong>
+                  <strong className="float-right mr-3 mt-2">Total Harga</strong>
                 </Col>
               </Row>
               {keranjangs.map((menuKeranjang) => (

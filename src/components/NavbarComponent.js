@@ -9,7 +9,7 @@ const NavbarComponent = () => {
       </Nav.Link>
 
       <Navbar.Brand className="ml-5" href="#home">
-        Kasir Yuhuu
+        Burjo Sayang
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">

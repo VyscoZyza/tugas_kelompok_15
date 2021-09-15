@@ -25,9 +25,9 @@ export default class Sukses extends Component {
   render() {
     return (
       <div className="mt-4 text-center">
-        <Image src="assets/images/sukses.png" width="500" />
-        <h2>Sukses Pesan</h2>
-        <p>Terimakasih Sudah Memesan!</p>
+        <Image src="assets/images/berhasil.png" width="100" />
+        <h2>Pembayaran Berhasil</h2>
+        <p>Pesanan Diproses</p>
         <Button variant="dark" as={Link} to="/">
           Kembali
         </Button>
