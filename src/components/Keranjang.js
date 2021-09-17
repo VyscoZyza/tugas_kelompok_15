@@ -4,7 +4,7 @@ import React from "react";
 import { Modal, Button, Form } from "react-bootstrap";
 import { numberWithCommas } from "../utils/utils";
 
-const ModalKeranjang = ({
+const Keranjang = ({
   showModal,
   handleClose,
   keranjangDetail,
@@ -107,4 +107,4 @@ const ModalKeranjang = ({
   }
 };
 
-export default ModalKeranjang;
+export default Keranjang;

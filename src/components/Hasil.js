@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Badge, Card, Col, ListGroup, Row } from "react-bootstrap";
 import { numberWithCommas } from "../utils/utils";
-import ModalKeranjang from "./ModalKeranjang";
+import Keranjang from "./Keranjang";
 import TotalBayar from "./TotalBayar";
 import { API_URL } from "../utils/constants";
 import axios from "axios";
@@ -156,7 +156,7 @@ export default class Hasil extends Component {
                 </ListGroup.Item>
               ))}
 
-              <ModalKeranjang
+              <Keranjang
                 handleClose={this.handleClose}
                 {...this.state}
                 tambah={this.tambah}

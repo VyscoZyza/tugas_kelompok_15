@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import { Hasil, ListCategories, Menus } from "../components";
+import { Hasil, List, Menus } from "../components";
 import { API_URL } from "../utils/constants";
 import axios from "axios";
 import swal from "sweetalert";
@@ -15,6 +15,7 @@ export default class Home extends Component {
       keranjangs: [],
     };
   }
+  // const [menus, setMenus] =
 
   componentDidMount() {
     axios
@@ -125,15 +126,17 @@ export default class Home extends Component {
   render() {
     const { menus, categoriYangDipilih, keranjangs } = this.state;
     return (
-      <div className="mt-3">
+      <div>
         <Container fluid>
-          <ListCategories
-            changeCategory={this.changeCategory}
-            categoriYangDipilih={categoriYangDipilih}
-          />
           <Row>
-            <Col className="mt-3 ml-3">
-              <h4>
+            <Col className="ml-4">
+              <div className="ml-n3">
+                <List
+                  changeCategory={this.changeCategory}
+                  categoriYangDipilih={categoriYangDipilih}
+                />
+              </div>
+              <h4 className="mt-3">
                 <strong>Daftar Produk</strong>
               </h4>
               <hr />

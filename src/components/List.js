@@ -3,7 +3,7 @@ import { Col, ListGroup } from "react-bootstrap";
 import axios from "axios";
 import { API_URL } from "../utils/constants";
 
-export default class ListCategories extends Component {
+export default class List extends Component {
   constructor(props) {
     super(props);
 
