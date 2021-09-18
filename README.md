@@ -4,12 +4,12 @@
 
 ### Screenshot
 
-![alt text](https://github.com/VyscoZyza/tugas_kelompok_15/blob/master/docs/gambar-1.jpg)
+![alt text](https://github.com/VyscoZyza/tugas_kelompok_15/blob/main/docs/gambar-1.jpg)
 
-![alt text](https://github.com/VyscoZyza/tugas_kelompok_15/blob/master/docs/gambar-2.jpg)
+![alt text](https://github.com/VyscoZyza/tugas_kelompok_15/blob/main/docs/gambar-2.jpg)
 
-![alt text](https://github.com/VyscoZyza/tugas_kelompok_15/blob/master/docs/gambar-3.jpg)
+![alt text](https://github.com/VyscoZyza/tugas_kelompok_15/blob/main/docs/gambar-3.jpg)
 
-![alt text](https://github.com/VyscoZyza/tugas_kelompok_15/blob/master/docs/gambar-4.jpg)
+![alt text](https://github.com/VyscoZyza/tugas_kelompok_15/blob/main/docs/gambar-4.jpg)
 
-![alt text](https://github.com/VyscoZyza/tugas_kelompok_15/blob/master/docs/gambar-5.jpg)
+![alt text](https://github.com/VyscoZyza/tugas_kelompok_15/blob/main/docs/gambar-5.jpg)
