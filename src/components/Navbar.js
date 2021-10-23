@@ -5,7 +5,7 @@ const Navbars = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Nav.Link className="text-light mr-5" href="#tugas">
-        Tugas Modul 3
+        Tugas Akhir
       </Nav.Link>
 
       <Navbar.Brand className="ml-5" href="#home">
