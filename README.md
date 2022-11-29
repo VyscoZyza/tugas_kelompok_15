@@ -1,4 +1,4 @@
-# Tugas Modul 3 Kelompok 15
+# Kasir Burjo
 
 #### Program ini merupakan program kasir Burjo Sayang yang dapat menghitung jumlah total pesanan yang dipesan oleh pelanggan
 
